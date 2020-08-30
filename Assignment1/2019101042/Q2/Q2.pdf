@@ -1,0 +1,12 @@
+a)
+N OUTPUT
+5 5
+10 5
+19 19
+20 5
+100 10
+b) Any prime number above 21 will give an overflow :
+1.Overflow for 8 bit register-6
+2.16 bit-9
+3.32 bit-13
+5.64 bit -21

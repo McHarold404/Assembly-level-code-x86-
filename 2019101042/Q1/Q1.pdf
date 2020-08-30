@@ -1,0 +1,26 @@
+Roll Number=2019101042;
+int x=2019101042%100;
+x=42;
+x in binary 00000000 00000000 00000000 00101010
+ 
+now a =-1*(x)
+a=binary 2's complement=-x
+a in binary-11111111 11111111 11111111 11010110
+unsigned int b=binary representation of "a" to decimal=4294967256
+
+c=4294967295-42=4294967253;
+binary representation of c =11111111 11111111 11111111 11010101
+int d=(signed)c=-(00000000 00000000 00000000 00101011)
+=-43;
+
+int p=65490+42=65532
+
+short int e=1111111111111100
+=-(0000000000000100)=-4;
+
+unsigned short f=unsigned short representation of a
+binary of f =11111111 11010110;
+f=65536-41=65495;
+
+Output
+-42 4294967256 4294967253 -43  -4 65495

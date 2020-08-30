@@ -1,0 +1,15 @@
+The code prints a valid sequence of steps to solve the tower of hanoi .
+ 
+Functions involved.
+f1- Allocate memory to store the towers. Since there are 3 towers, it is called 3 times 
+f2-Function to access the topmost element of a tower probably 
+f3-Pops the topmost element of a tower 
+f4-Pushes an element into a tower 
+f5-Moves an element from one tower to another 
+f7-The main solve function 
+f8-Exits from the solve function 
+ 
+ 
+Changes done in the code.Only two changes done in the code were.
+Line 113-Changed jg to jl to jump to the less-branch properly 
+Line 131: Added mov %rsp, %rbp  to set new base pointer to the stack top. Doing this to make the function call currently 

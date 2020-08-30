@@ -1,0 +1,12 @@
+a)
+N OUTPUT
+5 5
+10 5
+19 19
+20 5
+100 10
+b) Any prime number above 20 will give an overflow :
+● 23
+● 29
+● 31
+● 37
